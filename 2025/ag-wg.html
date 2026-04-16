@@ -55,7 +55,6 @@
           <li><a href="#background">Background</a></li>
           <li><a href="#scope">Scope</a></li>
           <li><a href="#deliverables">Deliverables</a></li>
-          <li><a href="#success-criteria">Success Criteria</a></li>
           <li><a href="#coordination">Coordination</a></li>
           <li><a href="#participation">Participation</a></li>
           <li><a href="#communication">Communication</a></li>
@@ -125,6 +124,7 @@
                 <ul>
                     <li>Alastair Campbell (Nomensa)</li>
                     <li>Rachael Montgomery (Library of Congress)</li>
+                    <li>Adam Page (W3C Invited Expert)</li>
                 </ul>
             </td>
           </tr>
@@ -188,7 +188,7 @@
         <section id="wcag3-interim">
           <h3>WCAG 3 Interim publications</h3>
 
-          <p>WCAG 3 seeks to address issues with WCAG 2 that were identified by previous work by the Silver TF. This is captured in <a href="https://www.w3.org/TR/wcag-3.0-requirements/">Requirements for WCAG 3.0</a>. There is a significant amount of work to do before the recommendation track document is complete. However, there may be opportunities to release resources that cover mature and contained parts of WCAG 3 that could help with improving accessibility. For example, the work on color contrast, assertions or user testing.</p>
+          <p>WCAG 3 seeks to address issues with WCAG 2 that were identified by previous work by the Silver TF. This is captured in <a href="https://www.w3.org/TR/wcag-3.0-requirements/">Requirements for WCAG 3.0</a>. There is a significant amount of work to do before the recommendation track document is complete. However, there may be opportunities to release resources that cover mature and contained parts of WCAG 3 that could help with improving accessibility. For example, the work on color contrast, assertions or user testing. AG will explore publishing this type of work as a note when it becomes mature enough.</p>
         </section>
 
 				<section id="wcag3-policy-support">
@@ -209,9 +209,15 @@
         <section id="wcag2">
           <h3>WCAG 2 Maintenance</h3>
 
-          <p>The working group will continue to maintain WCAG 2. In order to do that, AG may publish a normative update in this charter period to address issues with the internationalization of WCAG 2. For example, the current handling of text presentation for non-Latin script languages means that readers of those languages with disabilities are offered no support. If a normative update is needed to resolve these challenges, then a limited number of changes to address interpretation issues may also be considered. This additional work would not include new success criteria beyond that which might be required to address known internationalization issues. Overall the work will primarily be done by the WCAG 2 task force, and whole-group meeting time on this topic would be time-boxed. For example, 30 minutes every two weeks. If an issue cannot reach consensus then the current text remains.</p>
-
           <p>The working group will address <a href="https://github.com/w3c/wcag/issues">open WCAG 2 issues</a> and public feedback through the WCAG 2 TF. The TF maintains <a href="https://www.w3.org/WAI/WCAG22/Understanding/">Understanding WCAG 2</a> and <a href="https://www.w3.org/WAI/WCAG22/Techniques/">WCAG 2 Techniques</a> as informative support materials that help with interpretation and education for its normative guidance.</p>
+
+          <p>No normative changes will be undertaken through this charter. However, the task force will seek to identify issues and possible solutions that may need normative changes. Results from this work will determine future scope and approach for WCAG 2 normative materials.</p>
+        </section>
+
+        <section id="i18n">
+          <h3>Support for non-latin scripts</h3>
+
+          <p>As part of the development of WCAG 3 an approach to supporting non-latin scripts will be explored. This may require the development and publication of a registry and Recommendations covering known readability metrics for various scripts and/or languages. While the work is focused on WCAG 3 it may provide a solution that can be applied to WCAG 2 in the future.</p>
         </section>
 
         <section id="non-wcag-activities">
@@ -221,11 +227,11 @@
           <ul>
             <li>Update <a href="https://www.w3.org/TR/wcag2ict/">WCAG2ICT</a> with non-normative guidance on applying WCAG 2.1 and WCAG 2.2 to non-web technology.</li>
             <li>Develop <a href="https://www.w3.org/TR/wcag2mobile-22/">Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)</a>.</li>
-            <li>Develop <a href="https://w3.org/TR/wcag-em-2">WCAG Evaluation Methodology (WCAG-EM)</a>.
+            <li>Develop <a href="https://www.w3.org/TR/wcag-em-2/">WCAG Evaluation Methodology (WCAG-EM) 2.0</a>.
             <li>Perform secondary research, and engage with primary researchers, to understand the needs of specific user groups. For example, <a href="https://www.w3.org/TR/low-vision-needs/">Accessibility Requirements for People with Low Vision</a> and <a href="https://www.w3.org/TR/coga-user-research/">Cognitive Accessibility User Research</a>.</li>
             <li>Conduct gap analyses against deployed features to identify accessibility guidance needs. For example, <a href="https://www.w3.org/TR/coga-gap-analysis/">Cognitive Accessibility Roadmap and Gap Analysis</a>.
-            <li>Maintain <a href="https://www.w3.org/TR/act-rules-format-1.1/">Accessibility Conformance Testing (ACT) Rules Format 1.1</a>, to ensure ACT rules will be compatible with WCAG 3.</li>
-            <li>Provide evaluation guidance and test materials to support verification of conformance to normative guidance. For example, <a href="https://www.w3.org/TR/act-rules-format-1.1/">Accessibility Conformance Testing (ACT) Rules Format 1.1</a>.</li>
+            <li>Maintain <a href="https://www.w3.org/TR/act-rules-format-1.1/">Accessibility Conformance Testing (ACT) Rules Format 1.1</a></li>
+            <li>Provide evaluation guidance and test materials to support verification of conformance to normative guidance. For example, test rules for WCAG 2, as well as preliminary test rules for WCAG 3.</li>
             <li>Develop supplemental guidance that describes enhanced accessibility for certain scenarios. For example, <a href="https://www.w3.org/TR/coga-usable/">Making Content Usable for People with Cognitive and Learning Disabilities</a>.</li>
             <li>Maintain errata for content developed by predecessor groups. For example, <a href="https://www.w3.org/TR/ATAG20/">Authoring Tool Accessibility Guidelines</a> and the <a href="https://www.w3.org/TR/UAAG20/">User Agent Accessibility Guidelines</a> specifications.</li>
           </ul>
@@ -267,19 +273,6 @@
             </dd>
 					</dl>
 
-          <dl>
-            <dt class="spec"><a href="https://www.w3.org/TR/act-rules-format-1.1/">Accessibility Conformance Testing (ACT) Rules Format 1.1</a></dt>
-            <dd>
-              <p>This specification defines the format, logic, and implementation of accessibility test rules.</p>
-
-              <p class="draft-status"><b>Draft state:</b> <a href="https://www.w3.org/TR/act-rules-format/">Candidate Recommendation</a></p>
-              <p class="milestone"><b>Expected completion:</b> Q1 2026</p>
-							<p><b>Exclusion Draft:</b> <a href="https://www.w3.org/TR/2025/CR-act-rules-format-1.1-20250819/">Accessibility Conformance Testing (ACT) Rules Format 1.1
-</a> W3C Candidate Recommendation Snapshot. <a href="https://www.w3.org/mid/cfe-15907-3c83523a237274223e1e2066b5f53a3c4a13af48@w3.org">Exclusion period</a> began on 2025-08-19 and ended on 2025-10-18</a>.</p>
-              <p><b>Exclusion Draft Charter:</b> Produced under Working Group Charter: <a href="https://www.w3.org/2023/11/ag-charter">https://www.w3.org/2023/11/ag-charter</a>.</p>
-            </dd>
-					</dl>
-
           <p>Maintenance of WCAG 2 may result in the need for a new version of the normative specification. While this is not a priority it is recognized that it may be necessary to address egregious issues.</p>
         </section>
 
@@ -310,6 +303,49 @@
             <li>Primer or Best Practice documents to support web developers when designing applications.</li>
             <li>A mapping document of WCAG 3 to WCAG 2 requirements.</li>
           </ul>
+        </section>
+
+        <section id="section-definition-of-done">
+          <h3>Definiton of Done</h3>
+          <p>The primary area of work for the working group centers on the development of WCAG 3. While the other areas of work identified in <a href=""#scope">Scope</a> are important, they are largely concerned with informative materials supporting WCAG or maintenance of WCAG 2. As such this section covers WCAG 3 and related materials only.</p>
+
+          <p>Work during this charter period should be considered done with the publication of the following materials as a minimum:</p>
+          
+          <ul>
+            <li>WCAG 3 Candidate Recommendation Snapshot, including:
+              <ul>
+                <li>Provisions that, at a minimum, provide equivalent coverage of WCAG 2.2 success criteria, and</li>
+                <li>a conformance model with group consensus.</li>
+              </ul>
+            </li>
+            <li>Documents supporting WCAG 3:
+              <ul>
+                <li>Standard keyboard navigation and operation keys</li>
+                <li>Requirements for an accessibility support set</li>
+                <li>Framework to support non-latin script metrics</li>
+                <li>Guidance to support integration of WCAG into policy or regulation</li>
+                <li>Mapping between WCAG 2 and WCAG 3</li>
+              </ul>
+            </li>
+          </ul>
+
+          <p>Guidelines and provisons will be done when:</p>
+          <ul>
+            <li>All content within the  or provision is complete,</li>
+            <li>Guideline or provision text has been surveyed at least twice by the group,</li>
+            <li>Guideline or provision text has been subject to wide review at least once, and</li>
+            <li>All issues raised against the guideline or provision have been closed or addressed for future fixes.</li>
+          </ul>
+
+          <p>Additionally, requirement provisions content will be consided complete when:</p>
+          <ul>
+            <li>Text of the requirement is complete</li>
+            <li>At least one (informative) testing procedure is provided</li>
+            <li>At least two (informative) methods are provided</li>
+            <li>At least one (informative) ACT formated rule is provided</li>
+          </ul>
+
+          <p>Note that exploration for some of these topics may require a different publication approach to be taken. Where this occurs a group decision will be recorded in the group <a href="https://www.w3.org/WAI/GL/wiki/Decisions">Decision log</a>.</p>
         </section>
       </section>
 
@@ -466,7 +502,7 @@
           Patent Policy
         </h2>
         <p>
-          This Working Group operates under the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> (Version of 15 September 2020). To promote the widest adoption of Web standards, W3C seeks to issue Web specifications that can be implemented, according to this policy, on a Royalty-Free basis.
+          This Working Group operates under the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> (Version of 15 May 2025). To promote the widest adoption of Web standards, W3C seeks to issue Web specifications that can be implemented, according to this policy, on a Royalty-Free basis.
 
           For more information about disclosure obligations for this group, please see the <a href="https://www.w3.org/groups/wg/ag/ipr/">licensing information</a>.
         </p>
